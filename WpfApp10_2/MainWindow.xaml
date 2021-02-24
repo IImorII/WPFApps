@@ -1,0 +1,17 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="WpfApp1.Window1"
+    Title="Window1" Height="768" Width="1366">
+    <Grid Margin="20">
+        <Image x:Name="image1" Margin="260,0,63,0" />
+        <Button x:Name ="SaveButton" Content="Draw" HorizontalAlignment="Left" Margin="115,359,0,0" VerticalAlignment="Top" Width="132" Height="32" Click="SaveButton_Click"/>
+        <xctk:ColorPicker x:Name ="ColorPicker" HorizontalAlignment="Left" Margin="115,262,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Color" HorizontalAlignment="Left" Margin="115,231,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="dxBox" HorizontalAlignment="Left" Height="23" Margin="115,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="132"/>
+        <Label Content="dx" HorizontalAlignment="Left" Margin="115,300,0,0" VerticalAlignment="Top"/>
+        <Button x:Name ="Save" Content="Save" HorizontalAlignment="Left" Margin="115,582,0,0" VerticalAlignment="Top" Width="132" Height="30" Click="Save_Click"/>
+        <TextBox x:Name ="SizeOfImage" HorizontalAlignment="Left" Height="23" Margin="115,554,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Size of image" HorizontalAlignment="Left" Margin="115,523,0,0" VerticalAlignment="Top" Width="132"/>
+    </Grid>
+</Window>

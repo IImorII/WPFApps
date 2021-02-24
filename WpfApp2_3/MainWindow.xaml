@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp2_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Box1" HorizontalAlignment="Left" Height="23" Margin="151,100,0,0" TextWrapping="Wrap" Text="Введите xMin" VerticalAlignment="Top" Width="120" GotFocus="TextGotFocusEvent"/>
+        <TextBox x:Name="Box2" HorizontalAlignment="Left" Height="23" Margin="151,128,0,0" TextWrapping="Wrap" Text="Введите xMax" VerticalAlignment="Top" Width="120" GotFocus="TextGotFocusEvent"/>
+        <TextBox x:Name="Box3" HorizontalAlignment="Left" Height="23" Margin="151,156,0,0" TextWrapping="Wrap" Text="Введите шаг dx" VerticalAlignment="Top" Width="120" GotFocus="TextGotFocusEvent"/>
+        <TextBox x:Name="Box4" HorizontalAlignment="Left" Height="23" Margin="151,184,0,0" TextWrapping="Wrap" Text="Погрешность" VerticalAlignment="Top" Width="120" GotFocus="TextGotFocusEvent"/>
+        <Button x:Name="ButtonResults" Content="Рассчитать" HorizontalAlignment="Left" Height="27" Margin="151,222,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+        <DataGrid x:Name="DataGridResults" RowHeaderWidth="0" VerticalScrollBarVisibility ="Auto" HorizontalScrollBarVisibility ="Hidden" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="149" Margin="305,100,0,0" VerticalAlignment="Top" Width="416">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="X" Binding="{Binding Path=x}" Width="100" />
+                <DataGridTextColumn Header="Y" Binding="{Binding Path=y}" Width="100" />
+                <DataGridTextColumn Header="Steps" Binding="{Binding Path=steps}" Width="100" />
+                <DataGridTextColumn Header="Check" Binding="{Binding Path=yCheck}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

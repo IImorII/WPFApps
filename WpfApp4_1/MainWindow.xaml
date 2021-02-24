@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfApp4_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Полином вида ax^2 + bx + c:" HorizontalAlignment="Left" Margin="59,47,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name = "a1" HorizontalAlignment="Left" Height="23" Margin="72,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" />
+        <TextBox x:Name = "b1" HorizontalAlignment="Left" Height="23" Margin="103,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" />
+        <TextBox x:Name = "c1" HorizontalAlignment="Left" Height="23" Margin="134,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" />
+        <Label Content="a" HorizontalContentAlignment = "Center" HorizontalAlignment="Left" Margin="72,78,0,0" VerticalAlignment="Top" Width="26" Height="25"/>
+        <Label Content="b" HorizontalContentAlignment = "Center" HorizontalAlignment="Left" Margin="103,78,0,0" VerticalAlignment="Top" Width="26" Height="25"/>
+        <Label Content="c" HorizontalContentAlignment = "Center" HorizontalAlignment="Left" Margin="134,78,0,0" VerticalAlignment="Top" Width="26" Height="25"/>
+        <TextBox x:Name ="Argument" HorizontalAlignment="Left" Height="23" Margin="66,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+        <Label Content="Аргумент" HorizontalAlignment="Left" Margin="61,145,0,0" VerticalAlignment="Top"/>
+        <Button x:Name ="SolutionButton" Content="Вычислить" HorizontalAlignment="Left" Margin="128,176,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="SolutionButton_Click"/>
+        <Label Content="Значение" HorizontalAlignment="Left" Margin="205,145,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name= "Solution" HorizontalAlignment="Left" Height="23" Margin="209,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+        <Label Content="Полином вида ax^2 + bx + c:" HorizontalAlignment="Left" Margin="386,47,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name = "a2" HorizontalAlignment="Left" Height="23" Margin="399,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" />
+        <TextBox x:Name = "b2" HorizontalAlignment="Left" Height="23" Margin="430,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" />
+        <TextBox x:Name = "c2" HorizontalAlignment="Left" Height="23" Margin="461,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" />
+        <Label Content="a" HorizontalContentAlignment = "Center" HorizontalAlignment="Left" Margin="399,78,0,0" VerticalAlignment="Top" Width="26" Height="25"/>
+        <Label Content="b" HorizontalContentAlignment = "Center" HorizontalAlignment="Left" Margin="430,78,0,0" VerticalAlignment="Top" Width="26" Height="25"/>
+        <Label Content="c" HorizontalContentAlignment = "Center" HorizontalAlignment="Left" Margin="461,78,0,0" VerticalAlignment="Top" Width="26" Height="25"/>
+        <Button x:Name ="SumButton" Content="Сумма" HorizontalAlignment="Left" Margin="386,176,0,0" VerticalAlignment="Top" Width="75" Click="SumButton_Click"/>
+        <TextBox x:Name ="Sum" HorizontalAlignment="Left" Height="20" Margin="466,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
+        <Button x:Name ="DecButton" Content="Вычитание" HorizontalAlignment="Left" Margin="386,201,0,0" VerticalAlignment="Top" Width="75" Click="DecButton_Click"/>
+        <TextBox x:Name ="Dec" HorizontalAlignment="Left" Height="20" Margin="466,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
+        <Button x:Name ="MultButton" Content="Умножение" HorizontalAlignment="Left" Margin="386,226,0,0" VerticalAlignment="Top" Width="75" Click="MultButton_Click"/>
+        <TextBox x:Name ="Mult" HorizontalAlignment="Left" Height="20" Margin="466,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"/>
+        <Button x:Name ="Write1" Content="Записать" HorizontalAlignment="Left" Margin="165,103,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Write1_Click"/>
+        <Button x:Name ="Write2" Content="Записать" HorizontalAlignment="Left" Margin="492,103,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Write2_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfAppExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppExam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Товар" HorizontalAlignment="Left" Margin="143,65,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="SaleBox" HorizontalAlignment="Left" Height="23" Margin="159,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="64,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Стоимость" HorizontalAlignment="Left" Margin="64,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="Магазин" HorizontalAlignment="Left" Margin="64,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="Скидка (0-1)" HorizontalAlignment="Left" Margin="64,195,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="NameBox" HorizontalAlignment="Left" Height="23" Margin="159,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name ="CostBox" HorizontalAlignment="Left" Height="23" Margin="159,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name ="ShopBox" HorizontalAlignment="Left" Height="23" Margin="159,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name ="AddButton" Content="Записать" HorizontalAlignment="Left" Margin="143,236,0,0" VerticalAlignment="Top" Width="75" Click="AddButton_Click"/>
+        <ListBox x:Name ="OutList" HorizontalAlignment="Left" Height="173" Margin="351,60,0,0" VerticalAlignment="Top" Width="201"/>
+        <Button x:Name ="OutButton" Content="Вывести" HorizontalAlignment="Left" Margin="414,251,0,0" VerticalAlignment="Top" Width="75" Click="OutButton_Click"/>
+        <Button x:Name ="SaveButton" Content="Сохранить" HorizontalAlignment="Left" Margin="676,35,0,0" VerticalAlignment="Top" Width="75" Click="SaveButton_Click"/>
+        <Button x:Name ="LoadButton" Content="Загрузить" HorizontalAlignment="Left" Margin="676,60,0,0" VerticalAlignment="Top" Width="75" Click="LoadButton_Click"/>
+        <Button x:Name ="Sort" Content="Сортировать" HorizontalAlignment="Left" Margin="414,276,0,0" VerticalAlignment="Top" Width="75" Click="Sort_Click"/>
+        <Button x:Name ="ClearList" Content="Очистка" HorizontalAlignment="Left" Margin="414,34,0,0" VerticalAlignment="Top" Width="75" Click="ClearList_Click"/>
+
+    </Grid>
+</Window>

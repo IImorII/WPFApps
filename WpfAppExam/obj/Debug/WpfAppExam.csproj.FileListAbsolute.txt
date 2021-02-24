@@ -1,0 +1,14 @@
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam.csprojAssemblyReference.cache
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\MainWindow.g.cs
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\App.g.cs
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam_MarkupCompile.cache
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam_MarkupCompile.lref
+C:\Users\ltx7\source\repos\WpfAppExam\bin\Debug\WpfAppExam.exe.config
+C:\Users\ltx7\source\repos\WpfAppExam\bin\Debug\WpfAppExam.exe
+C:\Users\ltx7\source\repos\WpfAppExam\bin\Debug\WpfAppExam.pdb
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\MainWindow.baml
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam.g.resources
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam.Properties.Resources.resources
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam.csproj.GenerateResource.cache
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam.exe
+C:\Users\ltx7\source\repos\WpfAppExam\obj\Debug\WpfAppExam.pdb
